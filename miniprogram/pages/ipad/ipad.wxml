@@ -1,0 +1,22 @@
+<!--pages/deviceslist/deviceslist.wxml-->
+
+<view class='head'>
+  <view class='title'>选择机型</view>
+  <view class='sub_title'>* 请选择你的设备型号</view>
+</view>
+
+<!--
+<view class='imageview' wx:for="{{ipswList}}" wx:key="{{index}}" >
+<view>{{ipswList.data}}</view>
+</view>
+-->
+
+<view class='listArr' wx:for="{{listArr}}" wx:key="{{index}}" data-identifier="{{item.identifier}}">
+<view class='devicename' bindtap='getIpsw' data-identifier="{{item.identifier}}" hover-class='dhover'>{{item.name}}</view>
+</view>
+
+<view style='height: 10rpx;'></view>
+
+<view class='ad'>
+<ad unit-id="adunit-cb7d5a364ea6ceb3"></ad>
+</view>

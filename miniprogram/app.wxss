@@ -1,0 +1,32 @@
+/**app.wxss**/
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+} 
+
+button {
+  background: initial;
+}
+
+button:focus{
+  outline: 0;
+}
+
+button::after{
+  border: none;
+}
+
+.ad{
+  width: 90%;
+  height: auto;
+  margin-left:auto;
+  margin-right:auto;
+  margin-bottom: 40rpx;
+}
+
+.ad ad{
+  box-shadow: 1rpx 2rpx 5rpx 5rpx #ECECEE;
+  border-radius: 20rpx;
+}

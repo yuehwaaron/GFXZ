@@ -1,0 +1,13 @@
+<template name="footer"> 
+<view class='footer'>
+<view class='footer_title'>果粉指南</view>
+</view>
+
+<view class="weui-footer">
+            <view class="weui-footer__links">
+                <view  class="weui-footer__link">关于</view>
+            </view>
+            <view class="weui-footer__text">果粉指南</view>
+        </view>
+
+</template>

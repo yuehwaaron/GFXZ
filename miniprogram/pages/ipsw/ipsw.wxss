@@ -1,0 +1,52 @@
+@import "../../template/footer/footer.wxss";
+
+.head{
+    padding: 60rpx;
+    line-height: 1;
+    background-color: #FBF9FE;
+    flex: 1;
+    min-height: 100%;
+    font-size: 32rpx;
+}
+
+.title{
+    font-size: 52rpx;
+    padding-bottom: 10rpx;
+}
+
+.sub_title{
+    margin-top: 10rpx;
+    color: #888888;
+    font-size: 28rpx;
+}
+
+.iosbotton{
+  margin-top: 10rpx;
+  text-align: center;
+  display: flex;
+  justify-content: center;  
+  width: 100%;
+  height: 150rpx;
+}
+
+.iphone{
+  font-size: 32rpx;
+  height: 100rpx;
+  line-height: 100rpx;
+  border: 2px solid #ECECEE;
+  border-radius: 25rpx;
+  width:40%;
+  float:left;
+  margin:0 20rpx;
+  box-shadow: 1rpx 2rpx 5rpx 5rpx #ECECEE;
+}
+
+#btn{
+  width: 50%; 
+  margin-top: 20rpx;
+  box-shadow: 1rpx 2rpx 5rpx 5rpx #ECECEE;
+}
+
+.dhover{
+  background: #ECECEE;
+}

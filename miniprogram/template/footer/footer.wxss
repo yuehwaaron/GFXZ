@@ -1,0 +1,20 @@
+
+.footer{
+  text-align: center;
+  border: 1rpx solid red;
+  color: red;
+}
+
+.weui-footer {
+    color: rgba(0, 0, 0, 0.3);
+    font-size: 14px;
+    line-height: 1.4;
+    text-align: center;
+}
+
+user agent stylesheet
+div {
+    display: block;
+    margin: 0;
+    padding: 0;
+}

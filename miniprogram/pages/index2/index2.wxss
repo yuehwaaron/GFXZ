@@ -1,0 +1,143 @@
+@import "../../template/footer/footer.wxss";
+
+.head{
+    padding: 60rpx;
+    line-height: 1;
+    background-color: #FBF9FE;
+    flex: 1;
+    min-height: 100%;
+    font-size: 32rpx;
+}
+
+.title{
+    font-size: 52rpx;
+    padding-bottom: 10rpx;
+}
+
+.sub_title{
+    margin-top: 10rpx;
+    color: #888888;
+    font-size: 28rpx;
+}
+
+.content{
+  color: #888888;
+  padding: 0 60rpx;
+  margin-bottom: 10rpx;
+  font-size: 28rpx;
+}
+
+.switem{
+  padding: 10rpx 0rpx;
+  font-size: 28rpx;
+  margin: 0rpx 60rpx;
+  border-bottom: 1px solid #ccc;
+}
+
+.Title{
+  color: #888888;
+  padding-bottom: 10rpx;
+  font-weight: bold;
+}
+
+.blank{
+  height: 20rpx;
+}
+
+.Time{
+    color: #888888
+}
+
+.release{
+  margin-top: 20rpx;
+}
+
+#btn{
+  width: 50%; 
+  margin-top: 20rpx;
+}
+
+/* .version12{
+  margin:20rpx 30rpx 0rpx 30rpx;
+} */
+
+.scrollcard {
+    display: flex;
+    white-space: nowrap;
+   /* display: flex;
+    align-items: center;
+    justify-contnt: space-between;*/
+}
+
+.ios-jianbian{
+  display: inline-block;
+  margin: 10rpx 10rpx 10rpx 40rpx;
+  background: linear-gradient(170deg,#fec31f 0%,#ce3065 21%,#5d115b 41%,#15031e);
+  border-radius: 10%;
+  box-shadow: 1rpx 2rpx 5rpx 5rpx #ECECEE;
+  color: #fff;
+  text-align: center;
+  width: 300rpx;
+  height: auto;
+}
+
+.watchos-jianbian{
+  display: inline-block;
+  margin: 10rpx;
+  background: linear-gradient(170deg,#1b80f2,#32f35f);
+  border-radius: 10%;
+  box-shadow: 1rpx 2rpx 5rpx 5rpx #ECECEE;
+  color: #fff;
+  text-align: center;
+  width: 300rpx;
+  height: auto;
+}
+
+.macos-jianbian{
+  display: inline-block;
+  margin: 10rpx;
+  background: linear-gradient(#cd8a89,#666eb1);
+  border-radius: 10%;
+  box-shadow: 1rpx 2rpx 5rpx 5rpx #ECECEE;
+  color: #fff;
+  text-align: center;
+  width: 300rpx;
+  height: auto;
+}
+
+.noota-jianbian{
+  display: inline-block;
+  margin: 10rpx;
+  background: linear-gradient(#9f59ff,#6183ff);
+  border-radius: 10%;
+  box-shadow: 1rpx 2rpx 5rpx 5rpx #ECECEE;
+  color: #fff;
+  text-align: center;
+  width: 300rpx;
+  height: auto;
+}
+
+.imgcard{
+  padding:40rpx 0rpx;
+}
+
+.image {
+    padding-bottom: 20rpx;
+    width: 150rpx;
+}
+
+.banbenhao{
+  color: #fff;
+  display:table;
+  font-size: 32rpx;
+  margin: 0rpx auto;
+  padding: 5rpx 10rpx;
+  text-align: center;
+  border-radius: 10px;
+  background: linear-gradient(#42a1ec,#0070c9);
+  border: 1px solid #07c;
+}
+
+.verbtm{
+  transform:scale(0.9);
+}

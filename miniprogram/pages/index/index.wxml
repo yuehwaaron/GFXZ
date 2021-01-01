@@ -1,0 +1,28 @@
+<add-tips />
+
+<view class='head'>
+  <view class='title'>每日壁纸</view>
+  <view class='sub_title'>* 壁纸搜集于网络，每天更新。</view>
+</view>
+
+<!-- 取值 url -->
+
+<view style="width:90%;padding:20rpx 0;margin:auto">
+<official-account ></official-account>
+</view>
+
+
+<view class='imageview' wx:for="{{imagesList}}" wx:key="{{index}}" >
+<view class='image_box'>
+<image class='image' bindlongpress='saveImage' bindtap="previewImg" src='https://cn.bing.com/{{item.url}}' data-imgsrc='https://cn.bing.com/{{item.url}}' data-index='{{index}}' mode='widthFix'></image></view>
+<view class='copyright'>{{item.copyright}}</view>
+</view>
+
+<button type="primary" open-type='share' id='btn'>分享</button>
+
+
+<view style='height: 40rpx;'></view>
+
+<view class='ad'>
+<ad unit-id="adunit-66d75a134de7605b"></ad>
+</view>

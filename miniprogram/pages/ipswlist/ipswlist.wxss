@@ -1,0 +1,36 @@
+.head{
+    padding: 60rpx;
+    line-height: 1;
+    background-color: #FBF9FE;
+    flex: 1;
+    min-height: 100%;
+    font-size: 32rpx;
+}
+
+.title{
+    font-size: 52rpx;
+    padding-bottom: 10rpx;
+}
+
+.sub_title{
+    margin-top: 10rpx;
+    color: #888888;
+    font-size: 28rpx;
+}
+
+.ipswversion{
+  
+   text-align: center;
+   width: 200rpx;
+   margin: 60rpx;
+   padding: 10rpx;
+   border-radius: 10rpx;
+   border: 1px solid #ECECEE;
+   box-shadow: 1rpx 2rpx 5rpx 5rpx #ECECEE;
+}
+
+
+
+.dhover{
+  background: #ECECEE;
+}

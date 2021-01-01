@@ -1,0 +1,31 @@
+/* pages/deviceslist/deviceslist.wxss */
+.head{
+    padding: 60rpx;
+    line-height: 1;
+    background-color: #FBF9FE;
+    flex: 1;
+    min-height: 100%;
+    font-size: 32rpx;
+}
+
+.title{
+    font-size: 52rpx;
+    padding-bottom: 10rpx;
+}
+
+.sub_title{
+    margin-top: 10rpx;
+    color: #888888;
+    font-size: 28rpx;
+}
+
+.listArr{
+  margin: 60rpx;
+}
+
+.dhover{
+  color: #fff;
+  font-weight: bold;
+  font-size: 60rpx;
+  text-shadow: 0px 0px 10px #000;
+}
