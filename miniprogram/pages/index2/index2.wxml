@@ -15,30 +15,31 @@
 
 <view class='version12'>
 <scroll-view class="scrollcard" scroll-x="ture" >
+
         <view class='ios-jianbian' bindtap="copyText" data-text="{{ios}}" >
         <view class='imgcard'>
-        <image  class="image" src="../../images/ios-13-logo.png" mode='widthFix'></image>
+        <image  class="image" src="../../images/ios.png" mode='widthFix'></image>
         <view class='banbenhao' hover-class='verbtm'>iOS 14</view>
         </view>
         </view>
 
         <view class='watchos-jianbian'  bindtap="copyText" data-text="{{watchos}}">
         <view class='imgcard'>
-        <image  class="image"  src="../../images/watchos-5-logo.png" mode='widthFix'></image>
+        <image  class="image"  src="../../images/watchos.png" mode='widthFix'></image>
         <view class='banbenhao' hover-class='verbtm'>watchOS 7</view>
         </view>
         </view>
 
         <view class='macos-jianbian'  bindtap="copyText" data-text="{{macos}}">
         <view class='imgcard'>
-        <image  class="image"  src="../../images/macos-catalina-logo.png" mode='widthFix'></image>
+        <image  class="image"  src="../../images/macos.png" mode='widthFix'></image>
         <view class='banbenhao' hover-class='verbtm'>Big Sur</view>
         </view>
         </view>
 
         <view class='noota-jianbian' bindtap="copyText" data-text="{{noota}}">
         <view class='imgcard'>
-        <image  class="image"  src="../../images/tvos-12-logo.png" mode='widthFix'></image>
+        <image  class="image"  src="../../images/noota.png" mode='widthFix'></image>
         <view class='banbenhao' hover-class='verbtm'>屏蔽更新</view>
         </view>
         </view>

@@ -72,7 +72,7 @@
 .ios-jianbian{
   display: inline-block;
   margin: 10rpx 10rpx 10rpx 40rpx;
-  background: linear-gradient(170deg,#fec31f 0%,#ce3065 21%,#5d115b 41%,#15031e);
+  background: linear-gradient(140deg, #ffe1be 3.78%, #ff3b3b 53.36%, rgba(48, 57, 255, 1));
   border-radius: 10%;
   box-shadow: 1rpx 2rpx 5rpx 5rpx #ECECEE;
   color: #fff;
@@ -84,7 +84,7 @@
 .watchos-jianbian{
   display: inline-block;
   margin: 10rpx;
-  background: linear-gradient(170deg,#1b80f2,#32f35f);
+  background: linear-gradient(163deg, #ff214b 3.78%, #8c20af 56.72%, rgba(48, 28, 252, 1));
   border-radius: 10%;
   box-shadow: 1rpx 2rpx 5rpx 5rpx #ECECEE;
   color: #fff;
