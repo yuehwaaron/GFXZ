@@ -6,9 +6,7 @@
 }
 
 .dhover{
-  color: #fff;
   font-weight: bold;
   font-size: 60rpx;
-  text-shadow: 0px 0px 10px #000;
 }
 

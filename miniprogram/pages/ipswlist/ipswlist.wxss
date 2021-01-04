@@ -1,15 +1,15 @@
 
 .ipswversion{
-   text-align: center;
-   width: 200rpx;
-   margin: 60rpx;
-   padding: 10rpx;
-   border-radius: 10rpx;
-   border: 1px solid #ECECEE;
-   box-shadow: 1rpx 2rpx 5rpx 5rpx #ECECEE;
+  text-align: center;
+  font-size: 32rpx;
+  height: 100rpx;
+  line-height: 100rpx;
+  border: 2px solid #ECECEE;
+  border-radius: 25rpx;
+  width:40%;
+  margin:0 20rpx;
+  padding: 0 20rpx;
 }
-
-
 
 .dhover{
   background: #ECECEE;

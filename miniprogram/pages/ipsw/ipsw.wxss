@@ -18,14 +18,8 @@
   width:40%;
   float:left;
   margin:0 20rpx;
-  box-shadow: 1rpx 2rpx 5rpx 5rpx #ECECEE;
 }
 
-#btn{
-  width: 50%; 
-  margin-top: 20rpx;
-  box-shadow: 1rpx 2rpx 5rpx 5rpx #ECECEE;
-}
 
 .dhover{
   background: #ECECEE;
