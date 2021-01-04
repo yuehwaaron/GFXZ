@@ -1,15 +1,14 @@
 Page({
-
   /**
    * 页面的初始数据
    */
   data: {
     imagesList: [],
-   
+    title: "每日壁纸",
+    subtitle: "* 壁纸搜集于网络，每天更新。",
   },
 
     getImagesList(){
-      
       wx.showLoading({
         title: '加载中',
       })

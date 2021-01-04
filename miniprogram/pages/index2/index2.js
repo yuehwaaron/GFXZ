@@ -9,6 +9,9 @@ Page({
     watchos: 'https://www.mrwangyue.com/beta/watchos.mobileconfig',
     macos: 'https://www.mrwangyue.com/beta/macos.dmg',
     noota: 'https://www.mrwangyue.com/beta/noota.mobileconfig',
+    
+    title: "描述文件",
+    subtitle: "* 这里可以查询 Apple 描述文件",
   },
 
   

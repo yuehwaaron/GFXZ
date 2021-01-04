@@ -1,10 +1,7 @@
 <add-tips />
 <import src="../../template/footer/footer.wxml" />
 
-<view class='head'>
-  <view class='title'>我的信息</view>
-  <view class='sub_title'>* 这里可以查询自己的设备信息</view>
-</view>
+<include src="../header.wxml"/>
 
 <view style="width:90%;padding:20rpx 0;margin:auto">
 <official-account ></official-account>
@@ -12,8 +9,6 @@
 
 <view class="phone_info">
     <view class="info_warpper">
-
-
         <view class="info_detail">
             <view class="info_detail_name">设备型号</view>
             <view class='float_right'>
@@ -103,9 +98,7 @@
     </view>
 </view>
 
-<button type="primary" open-type='share' id='btn'>分享</button>
-
-<view style='height: 10rpx;'></view>
+<button type="primary" open-type='share' class='share-button'>分享</button>
 
 <view class='ad'>
 <ad unit-id="adunit-b81f4abb4ed44ad9"></ad>

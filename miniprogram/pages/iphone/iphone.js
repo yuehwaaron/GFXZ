@@ -15,7 +15,8 @@ Page({
     // identifierList:null
     //itemList:[],
     // ipswlist:[]
-
+    title: "选择机型",
+    subtitle: "* 请选择你的设备型号",
   },
 
   getDeviceslist() {

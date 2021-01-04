@@ -1,9 +1,6 @@
 <!--pages/deviceslist/deviceslist.wxml-->
 
-<view class='head'>
-  <view class='title'>选择机型</view>
-  <view class='sub_title'>* 请选择你的设备型号</view>
-</view>
+<include src="../header.wxml"/>
 
 <!--
 <view class='imageview' wx:for="{{ipswList}}" wx:key="{{index}}" >

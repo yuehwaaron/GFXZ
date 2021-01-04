@@ -6,7 +6,10 @@ Page({
    */
   data: {
     identifierList:null,
-    ipswversion:[]
+    ipswversion:[],
+    title: "选择版本",
+    subtitle: "* 请选择固件(只显示仍可验证的版本)",
+    subtitle: "* 请将链接粘贴到电脑端下载",
   },
   
   

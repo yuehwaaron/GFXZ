@@ -1,24 +1,4 @@
-@import "../../template/footer/footer.wxss";
 
-.head{
-    padding: 60rpx;
-    line-height: 1;
-    background-color: #FBF9FE;
-    flex: 1;
-    min-height: 100%;
-    font-size: 32rpx;
-}
-
-.title{
-    font-size: 52rpx;
-    padding-bottom: 10rpx;
-}
-
-.sub_title{
-    margin-top: 10rpx;
-    color: #888888;
-    font-size: 28rpx;
-}
 
 .content{
   color: #888888;
@@ -74,7 +54,6 @@
   margin: 10rpx 10rpx 10rpx 40rpx;
   background: linear-gradient(140deg, #ffe1be 3.78%, #ff3b3b 53.36%, rgba(48, 57, 255, 1));
   border-radius: 10%;
-  box-shadow: 1rpx 2rpx 5rpx 5rpx #ECECEE;
   color: #fff;
   text-align: center;
   width: 300rpx;
@@ -86,7 +65,6 @@
   margin: 10rpx;
   background: linear-gradient(163deg, #ff214b 3.78%, #8c20af 56.72%, rgba(48, 28, 252, 1));
   border-radius: 10%;
-  box-shadow: 1rpx 2rpx 5rpx 5rpx #ECECEE;
   color: #fff;
   text-align: center;
   width: 300rpx;
@@ -98,7 +76,6 @@
   margin: 10rpx;
   background: linear-gradient(#cd8a89,#666eb1);
   border-radius: 10%;
-  box-shadow: 1rpx 2rpx 5rpx 5rpx #ECECEE;
   color: #fff;
   text-align: center;
   width: 300rpx;
@@ -110,7 +87,6 @@
   margin: 10rpx;
   background: linear-gradient(#9f59ff,#6183ff);
   border-radius: 10%;
-  box-shadow: 1rpx 2rpx 5rpx 5rpx #ECECEE;
   color: #fff;
   text-align: center;
   width: 300rpx;

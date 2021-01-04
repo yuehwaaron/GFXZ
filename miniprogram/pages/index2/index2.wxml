@@ -2,10 +2,7 @@
 
 <import src="../../template/footer/footer.wxml" />
 
-<view class='head'>
-  <view class='title'>描述文件</view>
-  <view class='sub_title'>* 这里可以查询 Apple 描述文件</view>
-</view>
+<include src="../header.wxml"/>
 
 <view style="width:90%;padding:20rpx 0;margin:auto">
 <official-account ></official-account>
@@ -16,28 +13,28 @@
 <view class='version12'>
 <scroll-view class="scrollcard" scroll-x="ture" >
 
-        <view class='ios-jianbian' bindtap="copyText" data-text="{{ios}}" >
+        <view class='ios-jianbian shadow' bindtap="copyText" data-text="{{ios}}" >
         <view class='imgcard'>
         <image  class="image" src="../../images/ios.png" mode='widthFix'></image>
         <view class='banbenhao' hover-class='verbtm'>iOS 14</view>
         </view>
         </view>
 
-        <view class='watchos-jianbian'  bindtap="copyText" data-text="{{watchos}}">
+        <view class='watchos-jianbian shadow'  bindtap="copyText" data-text="{{watchos}}">
         <view class='imgcard'>
         <image  class="image"  src="../../images/watchos.png" mode='widthFix'></image>
         <view class='banbenhao' hover-class='verbtm'>watchOS 7</view>
         </view>
         </view>
 
-        <view class='macos-jianbian'  bindtap="copyText" data-text="{{macos}}">
+        <view class='macos-jianbian shadow'  bindtap="copyText" data-text="{{macos}}">
         <view class='imgcard'>
         <image  class="image"  src="../../images/macos.png" mode='widthFix'></image>
         <view class='banbenhao' hover-class='verbtm'>Big Sur</view>
         </view>
         </view>
 
-        <view class='noota-jianbian' bindtap="copyText" data-text="{{noota}}">
+        <view class='noota-jianbian shadow' bindtap="copyText" data-text="{{noota}}">
         <view class='imgcard'>
         <image  class="image"  src="../../images/noota.png" mode='widthFix'></image>
         <view class='banbenhao' hover-class='verbtm'>屏蔽更新</view>
@@ -64,7 +61,5 @@
         </view>
 </view>
 
-<button type="primary" open-type='share' id='btn'>分享</button>
-
-<view style='height: 20rpx;'></view>
+<button type="primary" open-type='share' class='share-button'>分享</button>
 <!-- <template is="footer"></template> -->

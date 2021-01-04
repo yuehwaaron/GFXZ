@@ -1,22 +1,19 @@
 {
   "pages": [
-
     "pages/index/index",
     "pages/index2/index2",
     "pages/ipsw/ipsw",
     "pages/myInfo/myInfo",
-    
     "pages/iphone/iphone",
     "pages/ipad/ipad",
     "pages/ipod/ipod",
     "pages/ipswlist/ipswlist" 
-    
   ],
   "window": {
-    "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#fff",
+    "backgroundTextStyle": "@bgTxtStyle",
+    "navigationBarBackgroundColor": "@navBgColor",
     "navigationBarTitleText": "果粉小站",
-    "navigationBarTextStyle": "black"
+    "navigationBarTextStyle": "@navTxtStyle"
   },
   "tabBar": {
     "list": [
@@ -46,5 +43,7 @@
       }
     ]
   },
-  "sitemapLocation": "sitemap.json"
+  "sitemapLocation": "sitemap.json",
+  "darkmode": true,
+  "themeLocation": "theme.json"
 }

@@ -2,7 +2,9 @@ Page({
   data: {
     phoneInfo: "",
     batteryInfo: "",
-    networkInfo: ""
+    networkInfo: "",
+    title: "我的信息",
+    subtitle: "* 这里可以查询自己的设备信息",
   },
   onLoad: function (res) {
     var that = this;

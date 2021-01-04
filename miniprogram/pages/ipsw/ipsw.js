@@ -6,6 +6,8 @@ Page({
    */
   data: {
    // ipswList:[]
+    title: "系统固件(正式版)",
+    subtitle: "* 这里可以查询 iOS 正式版系统固件",
   },
 
 

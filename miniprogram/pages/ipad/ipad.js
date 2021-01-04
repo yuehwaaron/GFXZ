@@ -7,8 +7,9 @@ Page({
    */
   data: {
     deviceslist: [],
-    listArr: []
-
+    listArr: [],
+    title: "选择机型",
+    subtitle: "* 请选择你的设备型号",
   },
 
   getDeviceslist() {
