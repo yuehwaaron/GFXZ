@@ -5,10 +5,10 @@ Page({
 
   data: {
     updateList: [],
-    ios: 'https://www.mrwangyue.com/beta/iosipados.mobileconfig',
-    watchos: 'https://www.mrwangyue.com/beta/watchos.mobileconfig',
-    macos: 'https://www.mrwangyue.com/beta/macos.dmg',
-    noota: 'https://www.mrwangyue.com/beta/noota.mobileconfig',
+    ios: 'https://hsyw.me/beta/iosipados.mobileconfig',
+    watchos: 'https://hsyw.me/beta/watchos.mobileconfig',
+    macos: 'https://hsyw.me/beta/macos.dmg',
+    noota: 'https://hsyw.me/beta/noota.mobileconfig',
     
     title: "描述文件",
     subtitle: "* 这里可以查询 Apple 描述文件",
