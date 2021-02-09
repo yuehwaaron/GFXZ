@@ -37,22 +37,25 @@
   margin-top: 20rpx;
 }
 
-/* .version12{
-  margin:20rpx 30rpx 0rpx 30rpx;
-} */
-
-.scrollcard {
-    display: flex;
-    white-space: nowrap;
-   /* display: flex;
-    align-items: center;
-    justify-contnt: space-between;*/
+.betacontainer{
+  margin: auto 40rpx;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 30rpx;
+  justify-items: center;
 }
 
 .ios-jianbian{
-  display: inline-block;
-  margin: 10rpx 10rpx 10rpx 40rpx;
-  background: linear-gradient(140deg, #ffe1be 3.78%, #ff3b3b 53.36%, rgba(48, 57, 255, 1));
+  background: linear-gradient(-25deg,#695694 10%,#e73b43 70%,#ff8d22 100%);
+  border-radius: 10%;
+  color: #fff;
+  text-align: center;
+  width: 300rpx;
+  height: auto;
+}
+
+.ipados-jianbian{
+  background: linear-gradient(25deg,#a477ab,#d53b7f 100%);
   border-radius: 10%;
   color: #fff;
   text-align: center;
@@ -61,8 +64,6 @@
 }
 
 .watchos-jianbian{
-  display: inline-block;
-  margin: 10rpx;
   background: linear-gradient(163deg, #ff214b 3.78%, #8c20af 56.72%, rgba(48, 28, 252, 1));
   border-radius: 10%;
   color: #fff;
@@ -71,9 +72,16 @@
   height: auto;
 }
 
+.tvos-jianbian{
+  background: linear-gradient(-45deg,#ed6e2c,#f9e44b);
+  border-radius: 10%;
+  color: #fff;
+  text-align: center;
+  width: 300rpx;
+  height: auto;
+}
+
 .macos-jianbian{
-  display: inline-block;
-  margin: 10rpx;
   background: linear-gradient(#cd8a89,#666eb1);
   border-radius: 10%;
   color: #fff;
@@ -82,9 +90,16 @@
   height: auto;
 }
 
+.homepod-jianbian{
+  background: linear-gradient(-45deg,#52cdf9,#6a6af1);
+  border-radius: 10%;
+  color: #fff;
+  text-align: center;
+  width: 300rpx;
+  height: auto;
+}
+
 .noota-jianbian{
-  display: inline-block;
-  margin: 10rpx;
   background: linear-gradient(#9f59ff,#6183ff);
   border-radius: 10%;
   color: #fff;
@@ -105,13 +120,15 @@
 .banbenhao{
   color: #fff;
   display:table;
+  width: 30rpx;
   font-size: 32rpx;
   margin: 0rpx auto;
   padding: 5rpx 10rpx;
   text-align: center;
-  border-radius: 10px;
+  border-radius: 5px;
   background: linear-gradient(#42a1ec,#0070c9);
   border: 1px solid #07c;
+  min-width: 82px;
 }
 
 .verbtm{

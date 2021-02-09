@@ -6,8 +6,11 @@ Page({
   data: {
     updateList: [],
     ios: 'https://hsyw.me/beta/iosipados.mobileconfig',
+    ipados: 'https://hsyw.me/beta/iosipados.mobileconfig',
     watchos: 'https://hsyw.me/beta/watchos.mobileconfig',
+    tvos: 'https://hsyw.me/beta/tvos.mobileconfig',
     macos: 'https://hsyw.me/beta/macos.dmg',
+    homepod: 'https://hsyw.me/beta/homepod.mobileconfig',
     noota: 'https://hsyw.me/beta/noota.mobileconfig',
     
     title: "描述文件",

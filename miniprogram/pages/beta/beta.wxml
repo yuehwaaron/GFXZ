@@ -10,27 +10,40 @@
 
 <!-- <view class="card"> -->
 
-<view class='version12'>
-<scroll-view class="scrollcard" scroll-x="ture" >
+<view class='betacontainer'>
 
         <view class='ios-jianbian shadow' bindtap="copyText" data-text="{{ios}}" >
         <view class='imgcard'>
-        <image  class="image" src="../../images/ios.png" mode='widthFix'></image>
-        <view class='banbenhao' hover-class='verbtm'>iOS 14</view>
+        <image  class="image" src="../../images/ios_ipados.png" mode='widthFix'></image>
+        <view class='banbenhao' hover-class='verbtm'>iOS/iPadOS</view>
         </view>
         </view>
 
         <view class='watchos-jianbian shadow'  bindtap="copyText" data-text="{{watchos}}">
         <view class='imgcard'>
         <image  class="image"  src="../../images/watchos.png" mode='widthFix'></image>
-        <view class='banbenhao' hover-class='verbtm'>watchOS 7</view>
+        <view class='banbenhao' hover-class='verbtm'>watchOS</view>
         </view>
         </view>
 
-        <view class='macos-jianbian shadow'  bindtap="copyText" data-text="{{macos}}">
+        <view class='tvos-jianbian shadow'  bindtap="copyText" data-text="{{tvos}}">
+        <view class='imgcard'>
+        <image  class="image"  src="../../images/tvos.png" mode='widthFix'></image>
+        <view class='banbenhao' hover-class='verbtm'>tvOS</view>
+        </view>
+        </view>
+
+        <view class='macos-jianbian shadow' bindtap="copyText" data-text="{{macos}}">
         <view class='imgcard'>
         <image  class="image"  src="../../images/macos.png" mode='widthFix'></image>
-        <view class='banbenhao' hover-class='verbtm'>Big Sur</view>
+        <view class='banbenhao' hover-class='verbtm'>macOS</view>
+        </view>
+        </view>
+
+        <view class='homepod-jianbian shadow'  bindtap="copyText" data-text="{{homepod}}">
+        <view class='imgcard'>
+        <image  class="image"  src="../../images/homepod.png" mode='widthFix'></image>
+        <view class='banbenhao' hover-class='verbtm'>HomePod</view>
         </view>
         </view>
 
@@ -40,13 +53,10 @@
         <view class='banbenhao' hover-class='verbtm'>屏蔽更新</view>
         </view>
         </view>
-</scroll-view>
 </view>
 
 <view class='blank'></view>
-<view class='content'>* 点击图片即可获取 iOS、watchOS、macOS、tvOS 的 beta 测试描述文件下载链接。</view>
-<view class='content'>* iOS 与 iPadOS 共用同一描述文件。</view>
-<view class='content'>* tvOS 的描述文件可用于屏蔽 iOS OTA 更新。</view>
+<view class='content'><sup>†</sup> 描述文件均为开发者测试版，若需公开测试版描述文件请前往 Apple Beta Software Program 网站自行下载。</view>
 
 <view style='height: 20rpx;'></view>
 

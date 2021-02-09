@@ -1,7 +1,7 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/index2/index2",
+    "pages/beta/beta",
     "pages/ipsw/ipsw",
     "pages/myInfo/myInfo",
     "pages/iphone/iphone",
@@ -24,7 +24,7 @@
         "selectedIconPath": "/images/1_click.png"
       },
       {
-        "pagePath": "pages/index2/index2",
+        "pagePath": "pages/beta/beta",
         "text": "描述文件",
         "iconPath": "/images/2.png",
         "selectedIconPath": "/images/2_click.png"
